@@ -20,4 +20,8 @@ public class TaskService {
   public List<TaskDTO> getAllTasks() {
     return taskServiceClient.getAllTasks();
   }
+
+  public void deleteTask(String taskId) {
+    taskServiceClient.deleteTask(taskId);
+  }
 }
