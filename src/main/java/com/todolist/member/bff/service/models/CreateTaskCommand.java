@@ -1,4 +1,4 @@
-package com.todolist.member.bff.adapter.http.models;
+package com.todolist.member.bff.service.models;
 
 import java.time.Instant;
 import lombok.AllArgsConstructor;
