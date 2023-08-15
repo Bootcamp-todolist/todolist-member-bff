@@ -1,0 +1,16 @@
+services:
+  account:
+    name: account-service
+    url: localhost:9090
+  task:
+    name: task-service
+    url: localhost:9093
+
+
+spring:
+  application:
+    name: member-bff
+
+server:
+  port: 9092
+
