@@ -5,7 +5,11 @@ plugins {
 }
 
 group = 'com.todolist'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1'
+
+jar {
+    archiveFileName = 'todolist-member-bff-0.0.1.jar'
+}
 
 java {
     sourceCompatibility = '17'
